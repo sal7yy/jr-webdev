@@ -27,12 +27,14 @@ header {
 
 .logo {
     width: 523px;
+    width: 100%;
 }
 
 .icon {
     display: inline-block;
     justify-content: center;
     width: 229px;
+    width: 50%;
     margin-bottom: -225px;
 }
 
@@ -167,4 +169,32 @@ button:hover {
     -moz-transition: ease 0.5s;
     -o-transition: ease 0.5s;
     -webkit-transition: ease 0.5s;
+}
+
+
+
+/* Testing Breakpoints */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+}
+
+@media only screen and (min-width: 390px) and (max-width: 844px) {
+    .grow {
+        font-size: 20px;
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 812px) {
+    .grow {
+        font-size: 20px;
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 800px) {
+    .grow {
+        font-size: 20px;
+        width: 80%;
+    }
 }
