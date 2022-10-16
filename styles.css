@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    background-color: #2B2B2B;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+}
+
+li, a, button {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px, 10%;
+    min-height: 100px;
+}
+
+.logo {
+    width: 400px;
+    padding: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    word-spacing: 20px;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px, 20px, 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-links li a {
+    transition: all 0.4 ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #ffbb00;
+    transition: all 0.4s ease 0s;
+}
+
+button {
+    display: inline-block;
+    padding: 15px, 25px, 15px;
+    color:#2B2B2B;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: #ffffff;
+    border: 7px solid #ffffff;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+    margin-top: 26px;
+}
+
+button:hover {
+    background-color: #ffbb00;
+    border: 7px solid #ffbb00;
+    color: #ffffff;
+    font-size: 30px;
+    transition: all 0.4, ease 0s;
+}
+
+.landing {
+    position: relative;
+    text-align: center;
+    animation: fadeIn 3s, slide 1.25s forwards; 
+    left: -1000px;
+}
+
+@keyframes fadeIn {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
+.index-landing {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 48px;
+    cursor: context-menu;
+}
+
+.grow {
+    font-size: 24px;
+    text-align: center;
+    display: inline-block;
+    width: 500px;
+    color:#2B2B2B;
+    background-color: #ffffff;
+    border:15px solid #ffffff;
+    border-radius: 50px;
+    cursor: context-menu;
+    transition: all ease 0.5s;
+}
+
+.grow:hover {
+    display: inline-block;
+    width: 600px;
+    background-color: #ffbb00;
+    color: #ffffff;
+    border:15px solid #ffbb00;
+    border-radius: 50px;
+    font-size: 28px;
+    transition: all ease 0.5s;
+}
+
+.boring {
+    transition:ease 0.5s;
+    cursor: context-menu;
+}
+
+.boring:hover {
+    background-color:#ffbb00;
+    font-size: 65px;
+    transition:ease 0.5s;
+}
