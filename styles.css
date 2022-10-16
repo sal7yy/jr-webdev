@@ -26,29 +26,42 @@ header {
 }
 
 .logo {
-    width: 400px;
-    padding: 20px;
+    width: 523px;
+}
+
+.icon {
+    display: inline-block;
+    justify-content: center;
+    width: 229px;
+    margin-bottom: -225px;
 }
 
 .nav-links {
     list-style: none;
     word-spacing: 20px;
+    padding-right: 30px;
 }
 
 .nav-links li {
     display: inline-block;
-    padding: 0px, 20px, 20px;
+    padding: 0px, 40px, 20px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .nav-links li a {
     transition: all 0.4 ease 0s;
+    -moz-transition: all 0.4 ease 0s;
+    -o-transition: all 0.4 ease 0s;
+    -webkit-transition: all 0.4 ease 0s;
 }
 
 .nav-links li a:hover {
     color: #ffbb00;
     transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4 ease 0s;
+    -o-transition: all 0.4 ease 0s;
+    -webkit-transition: all 0.4 ease 0s;
 }
 
 button {
@@ -62,6 +75,9 @@ button {
     border-radius: 100px;
     cursor: pointer;
     transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4 ease 0s;
+    -o-transition: all 0.4 ease 0s;
+    -webkit-transition: all 0.4 ease 0s;
     margin-top: 26px;
 }
 
@@ -71,12 +87,18 @@ button:hover {
     color: #ffffff;
     font-size: 30px;
     transition: all 0.4, ease 0s;
+    -moz-transition: all 0.4 ease 0s;
+    -o-transition: all 0.4 ease 0s;
+    -webkit-transition: all 0.4 ease 0s;
 }
 
 .landing {
     position: relative;
     text-align: center;
-    animation: fadeIn 3s, slide 1.25s forwards; 
+    animation: fadeIn 3s, slide 1.25s forwards;
+    -moz-animation: fadeIn 3s, slide 1.25s forwards; 
+    -o-animation: fadeIn 3s, slide 1.25s forwards;
+    -webkit-animation: fadeIn 3s, slide 1.25s forwards;
     left: -1000px;
 }
 
@@ -111,6 +133,9 @@ button:hover {
     border-radius: 50px;
     cursor: context-menu;
     transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
 }
 
 .grow:hover {
@@ -122,10 +147,16 @@ button:hover {
     border-radius: 50px;
     font-size: 28px;
     transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
 }
 
 .boring {
     transition:ease 0.5s;
+    -moz-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
+    -webkit-transition: ease 0.5s;
     cursor: context-menu;
 }
 
@@ -133,4 +164,7 @@ button:hover {
     background-color:#ffbb00;
     font-size: 65px;
     transition:ease 0.5s;
+    -moz-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
+    -webkit-transition: ease 0.5s;
 }
